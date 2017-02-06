@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+     <class>Widget</class>
+     <widget class="QWidget" name="Widget">         
+
+         <layout class="QVBoxLayout" name="layout">
+             <item>
+                 <widget class="QPushButton" name="exit_button">
+                    <property name="geometry">
+                        <rect>
+                             <x>0</x>
+                             <y>0</y>
+                             <width>200</width>
+                             <height>200</height>
+                        </rect>
+                    </property>
+                    <property name="text">
+                    <string>Exit</string>
+                    </property>
+                </widget>
+            </item>
+        </layout>
+    </widget>
+    
+    <layoutdefault spacing="6" margin="11"/>
+    <resources/>
+    <connections/>
+</ui>
