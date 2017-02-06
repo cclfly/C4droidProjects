@@ -1,0 +1,5 @@
+SDL_draw静态库安装说明:
+    1.首先安装C4droid(建议用v3.98,其它版本不保证可行)
+    2.安装gcc插件和sdl插件
+    3.把SDL_draw文件夹拷贝至SD卡，进入C4droid，选项---选择编译器--G++ + Bionic
+    4.用C4droid打开SDL_draw文件夹下的Makefile(打开.c4droid或main.cpp也是可以的)编译运行
