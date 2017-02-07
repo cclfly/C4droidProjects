@@ -33,7 +33,7 @@ MOVE          = mv -f
 TAR           = tar -cf
 COMPRESS      = gzip -9f
 DISTNAME      = libapplication.so1.0.0
-DISTDIR = /storage/sdcard1/C4droidProjects/Project_Qt/test/.tmp/libapplication.so1.0.0
+DISTDIR = /storage/sdcard1/Git/C4droidProjects/Project_Qt/test/.tmp/libapplication.so1.0.0
 LINK          = arm-linux-androideabi-g++
 LFLAGS        = -Wl,-soname,libapplication.so -Wl,--no-undefined -Wl,-z,noexecstack -shared
 LIBS          = $(SUBLIBS) -L$(C4DROID_QTLIBPATH) -L/data/data/com.n0n3m4.droidc/files/gcc/qt/lib -lQt5OpenGL -lQt5Widgets -lQt5Gui -lQt5Core -lGLESv2 -lstdc++ -llog -lz -lm -ldl -lc -lgcc
@@ -631,7 +631,7 @@ moc_GLWidget.cpp: /data/data/com.n0n3m4.droidc/files/gcc/qt/include/QtOpenGL/QGL
 		/data/data/com.n0n3m4.droidc/files/gcc/qt/include/QtWidgets/QWidget \
 		GLWidget.h \
 		/data/data/com.n0n3m4.droidc/files/gcc/qt/bin/moc
-	/data/data/com.n0n3m4.droidc/files/gcc/qt/bin/moc $(DEFINES) -I/data/data/com.n0n3m4.droidc/files/gcc/qt/mkspecs/android-g++ -I/storage/sdcard1/C4droidProjects/Project_Qt/test -I/data/data/com.n0n3m4.droidc/files/gcc/qt/include -I/data/data/com.n0n3m4.droidc/files/gcc/qt/include/QtOpenGL -I/data/data/com.n0n3m4.droidc/files/gcc/qt/include/QtWidgets -I/data/data/com.n0n3m4.droidc/files/gcc/qt/include/QtGui -I/data/data/com.n0n3m4.droidc/files/gcc/qt/include/QtCore -I/usr/include -I/usr/local/include GLWidget.h -o moc_GLWidget.cpp
+	/data/data/com.n0n3m4.droidc/files/gcc/qt/bin/moc $(DEFINES) -I/data/data/com.n0n3m4.droidc/files/gcc/qt/mkspecs/android-g++ -I/storage/sdcard1/Git/C4droidProjects/Project_Qt/test -I/data/data/com.n0n3m4.droidc/files/gcc/qt/include -I/data/data/com.n0n3m4.droidc/files/gcc/qt/include/QtOpenGL -I/data/data/com.n0n3m4.droidc/files/gcc/qt/include/QtWidgets -I/data/data/com.n0n3m4.droidc/files/gcc/qt/include/QtGui -I/data/data/com.n0n3m4.droidc/files/gcc/qt/include/QtCore -I/usr/include -I/usr/local/include GLWidget.h -o moc_GLWidget.cpp
 
 compiler_moc_source_make_all:
 compiler_moc_source_clean:

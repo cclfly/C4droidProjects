@@ -9,6 +9,6 @@
    "toolchain-version": "4.8",
    "ndk-host": "windows",
    "target-architecture": "armeabi",
-   "qml-root-path": "/storage/sdcard1/C4droidProjects/Project_Qt/test",
-   "application-binary": "/storage/sdcard1/C4droidProjects/Project_Qt/test/libapplication.so"
+   "qml-root-path": "/storage/sdcard1/Git/C4droidProjects/Project_Qt/test",
+   "application-binary": "/storage/sdcard1/Git/C4droidProjects/Project_Qt/test/libapplication.so"
 }
