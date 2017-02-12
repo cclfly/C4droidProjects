@@ -2,7 +2,8 @@
 
 using namespace std;
 
-enum class sex{
+enum class sex :bool 
+{
     boy,
     girl
 };
@@ -19,4 +20,5 @@ ostream & operator<<(ostream & out, sex s)
 int main()
 {
     cout<<sex::boy<<endl;
+    cout<<"sizeof:"<<sizeof sex::girl<<endl;
 }
