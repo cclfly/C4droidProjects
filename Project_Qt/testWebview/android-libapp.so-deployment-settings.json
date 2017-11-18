@@ -9,6 +9,6 @@
    "toolchain-version": "4.8",
    "ndk-host": "windows",
    "target-architecture": "armeabi",
-   "qml-root-path": "/storage/emulated/0/Git/C4droidProjects/Project_Qt/getHtml",
-   "application-binary": "/storage/emulated/0/Git/C4droidProjects/Project_Qt/getHtml/libgetHtml.so"
+   "qml-root-path": "/storage/emulated/0/Git/C4droidProjects/Project_Qt/testWebview",
+   "application-binary": "/storage/emulated/0/Git/C4droidProjects/Project_Qt/testWebview/libapp.so"
 }

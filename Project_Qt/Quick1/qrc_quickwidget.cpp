@@ -7,7 +7,7 @@
 *****************************************************************************/
 
 static const unsigned char qt_resource_data[] = {
-  // /storage/sdcard1/Git/C4droidProjects/Project_Qt/Quick1/rotatingsquare.qml
+  // /storage/emulated/0/Git/C4droidProjects/Project_Qt/Quick1/rotatingsquare.qml
   0x0,0x0,0x9,0x37,
   0x2f,
   0x2a,0x2a,0x2a,0x2a,0x2a,0x2a,0x2a,0x2a,0x2a,0x2a,0x2a,0x2a,0x2a,0x2a,0x2a,0x2a,
