@@ -27,3 +27,13 @@
 *.exe
 *.out
 *.app
+
+# MyAdd
+*.moc
+Makefile
+installer
+.c4droid
+.nomedia
+qrc_*
+moc_*
+ui_*
