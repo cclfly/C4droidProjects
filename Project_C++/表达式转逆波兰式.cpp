@@ -9,6 +9,13 @@
 
 using namespace std;
 
+enum class SymbolType{number};
+
+SymbolType symType(string symbol)
+{
+	return SymbolType(0);
+}
+
 void func(string str)
 {
 	str += '#';
@@ -34,6 +41,6 @@ int main()
 	string str;
 	cin>>str;
 	cout << "< " << str;
-	cout << "> " << func(str);
+	/*cout << "> " << */func(str);
 	return 0;
 }
