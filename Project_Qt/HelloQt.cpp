@@ -1,4 +1,4 @@
-﻿/*c4droid代码手册
+/*c4droid代码手册
  *hello world
  *TTHH编写
  *转载请说明出处
