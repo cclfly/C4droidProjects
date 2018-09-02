@@ -2,3 +2,5 @@
 -gnu -i4 -bl4 -bl -bli0 -pcs -nut -bls -cli0 -bap -npsl -nprs -l120
 -nbap -bli0 -i4 -l79 -ncs -npcs -npsl -fca -lc79 -fc1 -ts4 -ce -br -cdw -brs -brf
 -bap -bli0 -i4 -l99 -ncs -npcs -npsl -fca -lc79 -fc1 -ts4
+-nbap -bli0 -i4 -l79 -ncs -npcs -npsl -fca -lc79 -fc1 -ts4 -ce -br -cdw -brs -brf
+-bap -bli0 -i4 -l79 -ncs -npcs -npsl -fca -lc79 -fc1 -ts4 -cdw
