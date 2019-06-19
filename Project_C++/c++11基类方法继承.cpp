@@ -1,12 +1,15 @@
 #include <iostream>
 using namespace std;
-struct A{
+struct A
+{
     A(int i){cout<<i<<endl;}
 };
-struct B:public A{
+struct B:public A
+{
     using A::A;
 };
 int main()
 {
-    B(1);
+    B(233333);
+    return 0;
 }
