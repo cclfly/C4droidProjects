@@ -20,8 +20,8 @@ int main(int argc,char *argv[])
 	spinBox->setValue(35);
 	
 	QHBoxLayout *layout=new QHBoxLayout;
-	layout->addWidget(spinBox);
-	layout->addWidget(slider);
+	layout->addWidget(spinBox,1);
+	layout->addWidget(slider,4);
 	//window->setLayout(layout);
 	
 	QPushButton *quit=new QPushButton("退出",0);
