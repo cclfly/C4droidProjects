@@ -1,4 +1,4 @@
-QT += core widgets  webkitwidgets
+QT += core widgets  #webkitwidgets
 
 SOURCES = main.cpp
 
