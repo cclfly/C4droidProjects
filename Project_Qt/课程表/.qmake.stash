@@ -1,0 +1,18 @@
+QMAKE_CXX.INCDIRS = \
+    /data/data/com.n0n3m4.droidc/files/gcc/aarch64-linux-android/include/c++/9.1.0 \
+    /data/data/com.n0n3m4.droidc/files/gcc/lib/gcc/aarch64-linux-android/9.1.0/include \
+    /data/data/com.n0n3m4.droidc/files/gcc/lib/gcc/aarch64-linux-android/9.1.0/include-fixed \
+    /data/data/com.n0n3m4.droidc/files/gcc/aarch64-linux-android/include
+QMAKE_CXX.LIBDIRS = \
+    /data/data/com.n0n3m4.droidc/files/gcc/lib/gcc/aarch64-linux-android/9.1.0 \
+    /data/data/com.n0n3m4.droidc/files/gcc/lib/gcc \
+    /data/data/com.n0n3m4.droidc/files/gcc/aarch64-linux-android/lib
+QMAKE_CXX.QT_COMPILER_STDCXX = 201402L
+QMAKE_CXX.QMAKE_GCC_MAJOR_VERSION = 9
+QMAKE_CXX.QMAKE_GCC_MINOR_VERSION = 1
+QMAKE_CXX.QMAKE_GCC_PATCH_VERSION = 0
+QMAKE_CXX.COMPILER_MACROS = \
+    QT_COMPILER_STDCXX \
+    QMAKE_GCC_MAJOR_VERSION \
+    QMAKE_GCC_MINOR_VERSION \
+    QMAKE_GCC_PATCH_VERSION
