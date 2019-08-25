@@ -43,7 +43,7 @@ ClassTable::ClassTable(QWidget *prent = 0) :QWidget(prent)
 		sprintf(str, "<center>%s</center>", WeekNum(i + 1));
 		week[i] = new QLabel(this);
 		week[i]->setText(str);
-		week[i]->setFont(QFont("楷书", 18));
+		week[i]->setFont(QFont("楷体", 18));
 		week[i]->setWordWrap(true);//�Զ�����
 		week[i]->setStyleSheet("QLabel{border:1px solid purple}");
 		week[i]->setGeometry(0, rScreenSize.width() / 12 + i * (rScreenSize.height() - rScreenSize.width() / 12) / 5, rScreenSize.width() / 12, (rScreenSize.height() - rScreenSize.width() / 12) / 5);
