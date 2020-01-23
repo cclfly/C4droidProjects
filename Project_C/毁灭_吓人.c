@@ -7,10 +7,10 @@ int main()
 	int c,d,e,f,g,h;
 	for (a=6;a>=1;a--)
 	{
-		printf("自毁系统启动倒计时，你还有%d秒\n",a);
+		printf("\033[0;0H自毁系统启动倒计时，你还有%d秒\n",a);
 		sleep(1);
 	}
-	printf("毁灭启动成功\n");
+	printf("\033[0;0H毁灭启动成功                                          \n");
 	sleep(1);
 	printf("正在初始化......\n");
 	sleep(1);
